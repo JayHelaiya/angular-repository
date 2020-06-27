@@ -1,0 +1,24 @@
+<div id="main">
+
+  <!-- side menu -->
+
+  <aside>
+      <ul>
+        <li><a [routerLink]="['/grid-form']" routerLinkActive="active" >grid-form</a></li>
+          <li><a [routerLink]="['/home-page']" routerLinkActive="active" >home-page</a></li>
+          <li><a [routerLink]="['/customer']" routerLinkActive="active" >customer</a></li>
+          <li><a [routerLink]="['/customer-order']" routerLinkActive="active">customer-order</a></li>
+          <li><a [routerLink]="['/login']" routerLinkActive="active">login</a></li>
+          <li><a [routerLink]="['/models']" routerLinkActive="active">models</a></li>
+      </ul>
+      <img src="assets/images/side-1.jpg" alt="">
+  </aside>
+
+      <!-- container -->
+
+  <article>
+    <div class="container">
+       <router-outlet></router-outlet>
+    </div>
+  </article>
+</div>

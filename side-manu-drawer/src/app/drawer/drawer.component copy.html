@@ -1,0 +1,47 @@
+
+
+
+<div class="main-box">
+
+  <div class="side-view">
+      <mat-nav-list>
+        <mat-list-item [routerLink]="['/customer']" routerLinkActive="active" >
+          <mat-icon mat-list-icon>home</mat-icon>
+          <div fxFlex="10"></div>
+          <div >
+            <h5 class="lead">customer</h5>
+          </div>
+        </mat-list-item>
+
+        <mat-list-item [routerLink]="['/customer-order']" routerLinkActive="active" >
+          <mat-icon mat-list-icon>person</mat-icon>
+          <div fxFlex="10"></div>
+          <div>
+            <h5 class="lead">customer order</h5>
+          </div>
+        </mat-list-item>
+
+        <mat-list-item [routerLink]="['/login']" routerLinkActive="active" >
+          <mat-icon mat-list-icon>home</mat-icon>
+          <div fxFlex="10"></div>
+          <div>
+            <h5 class="lead">customer order</h5>
+          </div>
+        </mat-list-item>
+
+        <mat-list-item [routerLink]="['/models']" routerLinkActive="active" >
+          <mat-icon mat-list-icon>person</mat-icon>
+          <div fxFlex="10"></div>
+          <div>
+            <h5 class="lead">models</h5>
+          </div>
+        </mat-list-item>
+
+        </mat-nav-list>
+  </div>
+
+    <div class="main-view">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>

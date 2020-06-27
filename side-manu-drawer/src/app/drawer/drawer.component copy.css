@@ -1,0 +1,14 @@
+.main-box {
+  display: flex;
+  height: 100%;
+}
+.side-view {
+ flex-basis: 20%;
+ background: rgb(216, 216, 228);
+}
+.main-view {
+  flex-basis: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

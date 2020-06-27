@@ -1,0 +1,28 @@
+
+<h1>Yahoo Baba : Align Form With Flexbox</h1>
+
+<Form action="" [formGroup]="form"> 
+
+    <ul id="wrapper">
+
+      <li>
+        Login
+      </li>
+
+      <li>
+        <label>username</label>
+        <input type="text" formControlName="username">
+      </li>
+
+      <li>
+        <label>password</label>
+        <input type="text" formControlName="password">
+      </li>
+
+      <li>
+        <button type="save" (click)="login()">save</button>
+      </li>
+
+    </ul>
+
+</Form>

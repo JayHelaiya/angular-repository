@@ -1,0 +1,59 @@
+
+h1{padding: 0 0 0 0;}
+
+#wrapper{
+    background: #eee;
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+}
+
+#wrapper li{
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+#wrapper li label{
+   flex: 1;
+   padding-right: 10px;
+}
+
+
+
+ /**/
+ 
+ @media screen and (min-width:300px) and  (max-width:499px){  
+    #wrapper li {
+        flex-direction: column;
+    }
+    #wrapper li input{
+        flex: 3;
+     }
+    }
+
+    @media screen and (min-width:500px){
+        #wrapper li input{
+            flex: 3;
+         }
+        }
+
+        @media screen and (min-width:768px){
+            #wrapper li input{
+                flex: 4;
+             }
+            } 
+
+            @media screen and (min-width:992px){
+                #wrapper li input{
+                    flex: 6;
+                 }
+                } 
+                @media screen and (min-width:1200px){
+                    #wrapper li input{
+                        flex: 8;
+                     }
+                    }
+
+     

@@ -1,0 +1,42 @@
+/* -------- header section -------- */
+a{
+  text-decoration: none;
+}
+
+header{
+  background:#566c2b;
+  display: flex; /* make as flexbox */
+  align-items: center; /*content alignment */
+   padding: 15px 0; /*top-bottom : left-right */
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header a{
+  color: #fff;
+}
+#logo{
+  margin: auto;
+  font-size: 30px;
+}
+#menu li{
+  padding: 10px;
+}
+#social-links li{
+  padding: 10px;
+}
+
+@media screen and (max-width:600px){     
+  header{
+      display: flex;
+      flex-direction: column;
+  }
+  #logo{
+      order: -1;
+  }
+}
+

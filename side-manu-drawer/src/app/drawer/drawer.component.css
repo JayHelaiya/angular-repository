@@ -1,0 +1,55 @@
+a{
+  text-decoration: none;
+}
+
+/* -------- main section -------- */
+
+#main{
+  display: flex;
+}
+
+/* -------- side section -------- */
+aside{
+  flex-basis: 20%;
+  background: beige;
+  padding: 10px;
+}
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+aside ul a {
+  color: #566c2b;
+  padding: 10px;
+  display: block;
+  border-bottom: 1px solid grey;
+}
+aside img {
+  width: 100%;
+}
+
+/* --------  section -------- */
+article{
+  display: flex;
+  flex-basis: 80%;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+@media screen and (max-width:850px){
+  aside{
+      flex: 0 0 30vw;
+  }
+}
+
+@media screen and (max-width:600px){     
+  #main{
+      display: flex;
+      flex-direction: column;
+  }
+  article{
+      order: -1;
+  }
+}
+
